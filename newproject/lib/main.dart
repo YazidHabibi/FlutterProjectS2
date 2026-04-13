@@ -1,6 +1,7 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:newproject/jumat/harijumat.dart';
 import 'package:newproject/kamis/harikamis.dart';
 
 void main() {
@@ -17,17 +18,18 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: AnimatedSplashScreen(
-        splash: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              SizedBox(width: 100, height: 100, child: Icon(Icons.home, size: 70,)),
-            ],
-          ),
-        ),
-        nextScreen: HariKamis(),
-      ),
+      home: Harijumat(),
+      // home: AnimatedSplashScreen(
+      //   splash: Center(
+      //     child: Column(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       children: [
+      //         SizedBox(width: 100, height: 100, child: Icon(Icons.home, size: 70,)),
+      //       ],
+      //     ),
+      //   ),
+      //   nextScreen: Harijumat(),
+      // ),
     );
   }
 }

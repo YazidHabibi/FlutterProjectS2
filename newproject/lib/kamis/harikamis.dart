@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:newproject/kamis/komponen1.dart';
 import 'package:newproject/kamis/komponen2.dart';
 
+
 class HariKamis extends StatefulWidget {
   const HariKamis({super.key});
 
@@ -41,21 +42,21 @@ class _HariKamisState extends State<HariKamis> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Komponenkamis(),
-                      Komponenkamis(),
-                      Komponenkamis(),
-                      Komponenkamis(),
-                      Komponenkamis(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
                     ],
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Komponenkamis(),
-                      Komponenkamis(),
-                      Komponenkamis(),
-                      Komponenkamis(),
-                      Komponenkamis(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
+                      Komponenkamis2(),
                     ],
                   ),
                   SizedBox(height: 20,)
@@ -63,7 +64,7 @@ class _HariKamisState extends State<HariKamis> {
               ),
             ),
             SizedBox(height: 10,),
-            Komponen2(),
+            Komponenkamis2(),
           ],
         ),
       ),
