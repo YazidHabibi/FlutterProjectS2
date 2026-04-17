@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:newproject/kamis/komponen1.dart';
 import 'package:newproject/kamis/komponen2.dart';
 
 
