@@ -2,7 +2,9 @@
 import 'package:flutter/material.dart';
 
 import 'package:lottie/lottie.dart';
-import 'package:newproject/API/projectAPI.dart';  
+import 'package:newproject/API/projectAPI.dart';
+import 'package:newproject/API/slicingshope.dart';
+import 'package:newproject/jumat/harijumat.dart';  
 
 // import 'package:newproject/kamis/harikamis.dart';
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: Projectapi(),
+      home: Slicingshope(),
       // home: AnimatedSplashScreen(
       //   splash: Center(
       //     child: Column(
